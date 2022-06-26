@@ -23,3 +23,12 @@ ul { list-style: none; }
 .header__btn:hover { background-color: #3fa3fa; }
 .header__btn-link { font-size: 16px; line-height: 21px; text-align: center; letter-spacing: 2px; text-transform: uppercase; color: #fff; padding: 10px 31px 12px 31px; border: 1px solid #fff; border-radius: 4px; transition: all 0.3s; }
 .header__btn-link:hover { border: 1px solid #000; color: #000; }
+
+.about { padding-top: 78px; margin-bottom: 80px; }
+.about__img { width: 94px; height: 94px; padding-bottom: 14px; }
+.about__title { font-size: 30px; line-height: 36px; text-align: center; letter-spacing: 5px; text-transform: uppercase; color: #676770; padding-bottom: 17px; }
+.about__text { font-size: 17px; line-height: 20px; text-align: center; letter-spacing: 3px; text-transform: uppercase; color: #8e8e9c; margin-bottom: 62px; }
+.about__inner { display: flex; gap: 20px; }
+.about__item { display: flex; flex-direction: column; align-items: center; width: 300px; padding-top: 36px; padding-left: 30px; padding-right: 30px; background: #ffffff; border: 1px solid #dcebf7; border-radius: 5px; }
+.about__item-title { font-size: 20px; line-height: 30px; text-align: center; letter-spacing: 7px; text-transform: uppercase; color: #676770; padding-bottom: 14px; }
+.about__item-text { font-size: 14px; line-height: 25px; text-align: center; color: #6a859c; padding-bottom: 23px; }
