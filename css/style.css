@@ -17,12 +17,27 @@ ul { list-style: none; }
 
 .header__content { background-image: url("../images/header-bg.webp"); max-width: 100%; height: 85vh; background-repeat: no-repeat; background-position: center top; background-size: cover; }
 
+.btn { font-size: 16px; line-height: 21px; text-align: center; letter-spacing: 2px; text-transform: uppercase; color: #fff; padding: 10px 30px 12px 30px; border-radius: 4px; transition: all 0.3s; }
+
+.header__content { position: relative; }
 .header__box { display: flex; justify-content: center; padding-top: 106px; gap: 20px; }
 .header__title { font-size: 59px; line-height: 60px; letter-spacing: 4px; text-transform: uppercase; text-align: center; color: #fff; padding-top: 184px; }
-.header__btn { font-size: 16px; line-height: 21px; text-align: center; letter-spacing: 2px; text-transform: uppercase; color: #fff; padding: 11px 30px 13px 30px; background: #69b9ff; border-radius: 4px; border: none; cursor: pointer; transition: all 0.3s; }
+.header__btn { background: #69b9ff; border: none; cursor: pointer; }
 .header__btn:hover { background-color: #3fa3fa; }
-.header__btn-link { font-size: 16px; line-height: 21px; text-align: center; letter-spacing: 2px; text-transform: uppercase; color: #fff; padding: 10px 31px 12px 31px; border: 1px solid #fff; border-radius: 4px; transition: all 0.3s; }
+.header__btn-link { border: 1px solid #fff; }
 .header__btn-link:hover { border: 1px solid #000; color: #000; }
+
+.pop-up { display: none; align-self: start; width: 530px; height: 224px; align-items: end; text-align: center; padding-top: 15px; background: #fff; border-radius: 10px; position: absolute; top: 184px; transition: all 0.3s; }
+.pop-up__inner { display: flex; justify-content: center; }
+.pop-up__title { font-size: 34px; line-height: 36px; color: #69b9ff; margin-bottom: 20px; }
+.pop-up__form { display: flex; align-content: center; align-items: center; flex-direction: column; gap: 20px; }
+.pop-up__input { padding: 10px 30px 12px 30px; }
+.pop-up__btn { border: none; background: #69b9ff; cursor: pointer; }
+.pop-up__btn:hover { background: #3fa3fa; }
+
+.btn__box { display: grid; gap: 12px; padding: 12px 15px; grid-template-columns: 1fr 1fr; justify-items: center; align-items: center; background: #f1f5f8; height: 80px; border-radius: 0px 0px 10px 10px; margin-top: 21px; }
+
+.pop-up.active { display: block; }
 
 .about { padding-top: 78px; margin-bottom: 80px; }
 .about__img { width: 94px; height: 94px; padding-bottom: 14px; }

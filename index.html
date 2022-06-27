@@ -39,18 +39,35 @@
           <h1 class="header__title">Это - Velocity</h1>
 
           <div class="header__box">
-            <button class="header__btn" type="submit">
+            <button class="header__btn btn" type="submit" id="open">
               Зарегистрироваться
             </button>
-            <a class="header__btn-link" href="#">Узнать больше</a>
+            <a class="header__btn-link btn" href="#about">Узнать больше</a>
           </div>
+         
+          <div class="pop-up__inner">
+            <div class="pop-up" id="popup">
+              <h2 class="pop-up__title">Регистрация</h2>
+              <form class="pop-up__form" action="/">
+                <input class="pop-up__input" type="email" placeholder="Введите ваш e-mail">
+                <input class="pop-up__input" type="password" placeholder="Придумайте пароль">
+             
+
+              <div class="btn__box">
+                <button class="pop-up__btn btn" >Зарегистрироваться</button>
+                <p class="pop-up__btn btn" id="close">Закрыть</p>
+              </div>
+              </form>
+            </div>
+          </div>
+
         </div>
       </div>
     </header>
     <section class="about">
       <div class="container">
         
-        <h2 class="about__title">ЧТО МЫ ДЕЛАЕМ</h2>
+        <h2 class="about__title" id="about">ЧТО МЫ ДЕЛАЕМ</h2>
         <p class="about__text">This is some text inside of a div block.</p>
 
         <div class="about__inner">
@@ -76,5 +93,6 @@
         </div>
       </div>
     </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
