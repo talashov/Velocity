@@ -67,7 +67,7 @@ ul {
   transition: all 0.3s;
 }
 .header {
-  &__content{
+  &__content {
     position: relative;
   }
   &__box {
@@ -135,6 +135,14 @@ ul {
   }
   &__input {
     padding: 10px 30px 12px 30px;
+    border: 1px solid #dcebf7;
+    border-radius: 5px;
+    &::placeholder {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      line-height: 25px;
+      color: #676770;
+    }
   }
   &__btn {
     border: none;
@@ -144,11 +152,17 @@ ul {
       background: #3fa3fa;
     }
   }
+  .close {
+    background: #ff698b;
+    &:hover {
+      background: #c36279;
+    }
+  }
 }
 .btn__box {
   display: grid;
   gap: 12px;
-  padding: 12px 15px;
+  padding: 12px px;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
