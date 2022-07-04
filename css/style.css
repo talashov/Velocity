@@ -538,7 +538,7 @@ ul {
     font-size: 12px;
   }
 }
-@media (max-width: 421px) {
+@media (max-width: 435px) {
   .header__title {
     font-size: 34px;
     padding-top: 100px;
