@@ -1,1 +1,1 @@
-# Можно посмотреть по ссылки [Vilocity](https://talashov.github.io/vilocity/)
+# Можно посмотреть по ссылки [Vilocity](https://talashov.github.io/Velocity)
