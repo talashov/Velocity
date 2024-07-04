@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velocity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img src="images/logo.svg" alt="" />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Домой</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Контакт</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__content">
+        <div class="container">
+          <h1 class="header__title">Это - Velocity</h1>
+
+          <div class="header__box">
+            <button class="header__btn btn" type="submit" id="open">
+              Зарегистрироваться
+            </button>
+            <a class="header__btn-link btn" href="#about">Узнать больше</a>
+          </div>
+         
+          <div class="pop-up__inner">
+            <div class="pop-up" id="popup">
+              <h2 class="pop-up__title">Регистрация</h2>
+              <form class="pop-up__form" action="/">
+                <input class="pop-up__input" type="email" placeholder="Введите ваш e-mail">
+                <input class="pop-up__input" type="password" placeholder="Придумайте пароль">
+             
+
+              <div class="btn__box">
+                <button class="pop-up__btn btn" >Продолжить</button>
+                <p class="pop-up__btn btn close" id="close">Закрыть</p>
+              </div>
+              
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <section class="about">
+      <div class="container">
+        
+        <h2 class="about__title title" id="about">ЧТО МЫ ДЕЛАЕМ</h2>
+        <p class="about__text text">В этом блоке перечисляется что мы умеем делать.</p>
+
+        <div class="about__inner">
+          
+        <div class="about__item">
+            <img class="about__img" src="images/icon-1.svg" alt="" />
+            <h3 class="about__item-title">Графический дизайн</h3>
+            <p class="about__item-text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому.</p>
+        </div>
+
+        <div class="about__item">
+            <img class="about__img" src="images/icon-2.svg" alt="" />
+            <h3 class="about__item-title">Потрясающий код</h3>
+            <p class="about__item-text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому.</p>
+        </div>
+
+        <div class="about__item">
+            <img class="about__img" src="images/icon-3.svg" alt="" />
+            <h3 class="about__item-title">бесплатный шаблон</h3>
+            <p class="about__item-text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому.</p>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+   <section class="services">
+      <div class="container">
+
+        <h2 class="services__title title" id="about">Услуги</h2>
+        <p class="services__subject text">В этом блоке вы увидите наши услуги.</p>
+
+      <div class="services__inner">
+        
+        <div class="services__item">
+          <img class="services__img" src="images/services-icon-1.jpg" alt="">
+          <h3 class="services__caption">Наши первые услгуи</h3>
+          <p class="services__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов.</p>
+          <a class="services__btn" href="#">Узнать больше</a>
+        </div>
+
+        <div class="services__item">
+          <img class="services__img" src="images/services-icon-2.jpg" alt="">
+          <h3 class="services__caption">Наши вторые Услуги</h3>
+          <p class="services__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов.</p>
+          <a class="services__btn" href="#">Узнать больше</a>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <section class="works">
+      <div class="container">
+        
+        <h2 class="works__title title" id="about">Наши работы</h2>
+        <p class="works__subject text">А в этом блоке наши проделанные работы.</p>
+
+        <div class="works__slider">
+
+        <div class="works__inner">
+          <img class="works__img" src="images/city-bg.jpg" alt="">
+          <h3 class="works__caption">Горы</h3>
+          <p class="works__text">Повседневная практика показывает, что консультация с широким активом влечет за собой процесс внедрения и модернизации систем массового участия. Не следует, однако забывать, что новая модель организационной деятельности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий. Значимость этих проблем настолько очевидна, что консультация с широким активом позволяет выполнять важные задания по разработке существенных финансовых и административных условий.</p>
+        </div>
+
+        <div class="works__inner">
+          <img class="works__img" src="images/blog-bg.jpeg" alt="">
+          <h3 class="works__caption">Лодка</h3>
+          <p class="works__text">Кстати, реплицированные с зарубежных источников, современные исследования ассоциативно распределены по отраслям.</p>
+          <p class="works__text">А ещё тщательные исследования конкурентов неоднозначны и будут обнародованы.</p>
+          <p class="works__text">Приятно, граждане, наблюдать, как непосредственные участники технического прогресса указаны как претенденты на роль ключевых факторов.</p>
+          
+        </div>
+
+        <div class="works__inner">
+          <img class="works__img" src="images/man-bg.jpg" alt="">
+          <h3 class="works__caption">Человек</h3>
+          <p class="works__text">Господа, экономическая повестка сегодняшнего дня, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для стандартных подходов.</p>
+        </div>
+
+      </div>
+    </div>
+    </section>
+
+   <section class="contacts">
+      <div class="container">
+        <div class="contacts__box">
+
+          <div class="contacts__item">
+            <h4 class="contacts__title">о velocity</h4>
+            <p class="contacts__text">Современные технологии достигли такого уровня, что глубокий уровень погружения способствует подготовке и реализации соответствующих условий активизации.</p>
+          </div>
+
+          <div class="contacts__item">
+            <h4 class="contacts__title">Полезные ссылки</h4>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">
+                <a class="contacts__list-link" href="#">Глубокий уровень погружения</a>
+              </li>
+              <li class="contacts__list-item">
+                <a class="contacts__list-link" href="#">Не следует забывать</a>
+              </li>
+              <li class="contacts__list-item">
+                <a class="contacts__list-link" href="#">Все чаще появляется информация</a>
+              </li>
+              <li class="contacts__list-item">
+                <a class="contacts__list-link" href="#">Светлый лик правового взаимо</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contacts__item">
+            <h4 class="contacts__title">социальные сети</h4>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">
+                  <img src="images/social-icon-1.svg" alt="">
+                  <a class="contacts__list-link" href="#">Twitter</a>
+              </li>
+              <li class="contacts__list-item">
+                  <img src="images/social-icon-2.svg" alt="">
+                  <a class="contacts__list-link" href="#">Facebook</a>
+              </li>
+              <li class="contacts__list-item">
+                  <img src="images/social-icon-3.svg" alt="">
+                  <a class="contacts__list-link" href="#">Pinterest</a>
+              </li>
+              <li class="contacts__list-item">
+                 <img src="images/social-icon-4.svg" alt="">    
+                  <a class="contacts__list-link" href="#">Google</a>
+                 
+              </li>
+              <li class="contacts__list-item">
+                <img src="images/social-icon-5.svg" alt="">
+                <a class="contacts__list-link" href="#">Webflow</a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Copyright Velocity Inc.</p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
