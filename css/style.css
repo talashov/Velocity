@@ -127,7 +127,7 @@ ul {
 }
 
 .pop-up {
-  display: none;
+  transform: translateY(-700px);
   align-self: start;
   width: 530px;
   height: 224px;
@@ -204,7 +204,7 @@ ul {
 }
 
 .pop-up.active {
-  display: block;
+  transform: translateY(100px);
 }
 
 .about {
